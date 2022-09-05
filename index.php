@@ -28,7 +28,7 @@
         <h2>Nolan Cyr - Site map</h2>
         <p><a href="ADMIN/admin.php">My Admin Folder</a></p>
 
-        <h2>Lab one - Setting up your sitemap.</h2>
+        <h2>Lab one - Setting up your sitemap</h2>
         <p><a href="test.php">Testing Page</a></p>
     </body>
 </html>
