@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Nolan's CS008 Website</title>
         <meta name="author" content="Nolan Cyr">
-        <meta name="description" content="A site map to all of my Computer Science assignments for CS 008">
+        <meta name="description" content="A site map to all of my assignments for CS 008">
         <style>
             figure{
                 float: left; 
