@@ -1,8 +1,13 @@
 <!DOCTYPE HTML>
-<html lang="en">
-    <head>
-        <h1> Hello </h1>
-        <p> Hello 2 </p>
+    <html lang="en">
+    
+        <head>
+            <title>Test Page</title>
+        </head>
 
-    </head>
-</html>
+        <body>
+        <h1> Hello in heading 1 text</h1>
+        <p> Hello in paragraph text </p>
+        </body>
+
+    </html>
