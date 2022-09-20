@@ -2,9 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Survey</title> <!-- figure out -->
+        <title>Survey</title> 
         <meta name="author" content="Nolan Cyr"> 
-        <meta name="description" content=""> <!-- figure out -->    
+        <meta name="description" content="">   
     
         <link rel="stylesheet" href="css/custom.css?version=<?php print time(); ?>" type="text/css">
     </head>
@@ -17,80 +17,80 @@
 
         <nav>   
             <a href="index.php">Home</a>
-            <a href="detail.php">The Main Modes of Transportation</a> <!-- figure out -->
-            <a href="form.php">Survey</a> <!-- figure out? -->
+            <a href="detail.php">The Main Modes of Transportation</a> 
+            <a href="form.php">Survey</a> 
         </nav>
     
         <main>
-            <!---------------------------figure out--------------------------------->
-
             <section>
                 <h2>Help figure out your effect on the environment based on your daily habits</h2>
-            </section>
-
-            <section>
-                <form action="#" id="primaryTravelMethod" metho="post">
+                <form action="#" id="travelMethods" method="post">
                     <fieldset>
                         <legend>Your Contact Information</legend>
-            
-                        <label for="txtFirstName">First name:</label>
-                        <input type="text" id="txtFirstName" name="txtFirstName">
-                        <label for="txtLastName">Last name:</label>
-                        <input type="text" id="xtLastName" name="xtLastName">
-                        <label for="txtEmail">Email Address:</label>
-                        <input type="text" id="txtEmail" name="txtEmail">
-                    </fieldset>
-
-                    <fieldset class="radio">
-                        <legend>Your Primary Method of Travel</legend>
-
                         <p>
-                            <input type="radio" id="radCar" name="transportMethod" value="Car">
-                            <label class="radio-field" for="radCar">Car</label>
+                            <label for="txtFirstName">First name:</label>
+                            <input type="text" id="txtFirstName" name="txtFirstName">
                         </p>
-
                         <p>
-                            <input type="radio" id="radBus" name="transportMethod" value="Bus">
-                            <label class="radio-field" for="radBus">Bus</label>
+                            <label for="txtLastName">Last name:</label>
+                            <input type="text" id="txtLastName" name="xtLastName">
                         </p>
-
                         <p>
-                            <input type="radio" id="radRail" name="transportMethod" value="Rail">
-                            <label class="radio-field" for="radRail">Rail Transport</label>
-                        </p>
-
-                        <p>
-                            <input type="radio" id="radPlane" name="transportMethod" value="Plane">
-                            <label class="radio-field" for="radPlane">Plane</label>
+                            <label for="txtEmail">Email Address:</label>
+                            <input type="text" id="txtEmail" name="txtEmail">
                         </p>
                     </fieldset>
 
                     <fieldset class="checkbox">
-                        <legend>How often do you use this method of transport per week?</legend>
+                        <legend>Your Methods of Travel</legend>
 
                         <p>
-                            <input id="chkOnce" name="chkOnce" type="checkbox" value="1">
-                            <label for="chkOnce">Once a Week</label>
+                            <input type="checkbox" id="chkCar" name="chkCar" value="1">
+                            <label for="chkCar">Car</label>
                         </p>
 
                         <p>
-                            <input id="chkTwoToThree" name="chkTwoToThree" type="checkbox" value="1">
-                            <label for="chkTwoToThree">Two to Three Times a Week</label>
+                            <input type="checkbox" id="chkBus" name="chkBus" value="1">
+                            <label for="chkBus">Bus</label>
                         </p>
 
                         <p>
-                            <input id="chkFive" name="chkFive" type="checkbox" value="1">
-                            <label for="chkFive">Five Times a Week</label>
+                            <input type="checkbox" id="chkRail" name="chkRail" value="1">
+                            <label for="chkRail">Rail Transport</label>
                         </p>
 
                         <p>
-                            <input id="chkEvery" name="chkEvery" type="checkbox" value="1">
-                            <label for="chkEvery">Every Day</label>
+                            <input type="checkbox" id="chkPlane" name="chkPlane" value="1">
+                            <label for="chkPlane">Plane</label>
+                        </p>
+                    </fieldset>
+
+                    <fieldset class="radio">
+                        <legend>How often do you use these methods of transport per week?</legend>
+
+                        <p>
+                            <input id="radOnce" name="transportFreq" type="radio">
+                            <label class="radio-field" for="radOnce">Once a Week</label>
                         </p>
 
                         <p>
-                            <input id="chkMore" name="chkMore" type="checkbox" value="1">
-                            <label for="chkMore">More than Seven Times a Week</label>
+                            <input id="radTwoToThree" name="transportFreq" type="radio">
+                            <label class="radio-field" for="radTwoToThree">Two to Three Times a Week</label>
+                        </p>
+
+                        <p>
+                            <input id="radFive" name="transportFreq" type="radio">
+                            <label class="radio-field" for="radFive">Five Times a Week</label>
+                        </p>
+
+                        <p>
+                            <input id="radEvery" name="transportFreq" type="radio">
+                            <label class="radio-field" for="radEvery">Every Day</label>
+                        </p>
+
+                        <p>
+                            <input id="radMore" name="transportFreq" type="radio" >
+                            <label class="radio-field" for="radMore">More than Seven Times a Week</label>
                         </p>
                     </fieldset>
 
