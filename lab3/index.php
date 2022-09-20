@@ -24,13 +24,13 @@
                 border: solid;
                 border-width: 1px
                 }
-        </style> <!-- I looked into CSS for table formatting because the HTML validator does not like "border=1" -->
+        </style>
     </head>
     
     <body class="if-needed">
         <header>    
             <!-- put logo here -->
-            <h1>Greenhouse Gases</h1> <!-- figure out -->
+            <h1>Greenhouse Gases</h1>
         </header>
 
         <nav>   
