@@ -102,7 +102,6 @@
                 </form>
             </section>
 
-
             <section>
                 <h2>Thank you</h2>
                 <?php
