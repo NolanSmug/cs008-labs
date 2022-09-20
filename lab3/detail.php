@@ -2,18 +2,14 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Lab Two - Carbon Dioxide Emissions</title> <!-- figure out -->
+        <title>Lab Two - Carbon Dioxide Emissions</title> 
         <meta name="author" content="Nolan Cyr">
-        <meta name="description" content=""> <!-- figure out -->    
-    
-
-
-
+        <meta name="description" content="The most common forms of transport and how they impact the environment. The amount of 
+                                        harmful gases relased into the atmosphere when you travel depends on what kind of method you 
+                                        use to travel">    
         <link rel="stylesheet" href="css/custom.css?version=<?php print time(); ?>" type="text/css">
     </head>
 
-    
-    
     <body class="if-needed">
         <header>    
             <!-- put logo here -->
@@ -22,12 +18,11 @@
 
         <nav>   
             <a href="index.php">Home</a>
-            <a href="detail.php">The Main Modes of Transportation</a> <!-- figure out -->
+            <a href="detail.php">The Main Modes of Transportation</a> 
             <a href="form.php">Survey</a> 
         </nav>
     
         <main>
-            <!---------------------------figure out--------------------------------->
             <h1>Three Ways we Get Around</h1>
 
             <section>
