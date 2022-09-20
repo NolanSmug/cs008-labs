@@ -1,1 +1,19 @@
+body{
+    width: 90%;
+    margin: auto;
+}
 
+tr {
+    border: solid;
+    border-width: 1px
+}
+        
+th {
+    border: solid;
+    border-width: 1px
+}
+
+td {
+    border: solid;
+    border-width: 1px
+    }
