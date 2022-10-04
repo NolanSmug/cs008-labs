@@ -1,1 +1,143 @@
+:root {
+    --main-bg-color: #b3cccc;  
+    --text-bg-color: #d9d9d9;
+    --heading-font: Tahoma, "Trebuchet MS", sans-serif; 
+    --paragraph-font: Georgia, serif;
+}
 
+body{
+    line-height: 1.5;
+    padding: 1em 1em;
+    margin: 0 auto;
+    max-width: 50em;
+    background-color: var(--main-bg-color);
+    background-image: url("https://miro.medium.com/max/800/0*JUUIaKYvIBQq9p9y.jpg");
+    background-repeat: no-repeat;
+    background-size: 175%;
+}
+
+nav a:link{
+    background-color: var(--main-bg-color);
+    color: #009;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav a{
+    display: inline-block;
+    width: 19%;
+}
+
+h1{
+    font-family: var(--heading-font);
+    background-color: var(--text-bg-color);
+    text-transform: uppercase
+}
+
+h2, h3{
+    font-family: var(--heading-font);
+    background-color: var(--text-bg-color);
+    margin-top: 1em;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    background-color: var(--text-bg-color);
+    text-indent: 2em;
+    
+}
+
+cite{
+    font-size: xx-small;
+    background-color: var(--main-bg-color);
+}
+
+cite:hover{
+    text-decoration: underline;
+}
+
+figure {
+    border-radius: 1.5em;
+    border-style: groove;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    border-radius: 1.5em;
+    max-width: 100%;
+}
+
+figcaption {
+    background-color: var(--main-bg-color);
+    width: 100%;
+}
+
+ol{
+    font-family: var(--paragraph-font);
+    background-color: var(--text-bg-color);
+}
+
+table{
+    background-color: var(--text-bg-color);
+    border-collapse: collapse; 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr, th, td {
+    border: solid;
+    border-width: 0.05em;
+}
+
+caption{
+    background-color: var(--text-bg-color);
+}
+
+.tabHeadings{
+    border: solid;
+    border-width: 0.1em;
+}
+
+.odd:hover{
+    background-color: rgb(204, 255, 230);
+}
+
+.even:hover{
+    background-color: rgb(255, 255, 204);
+}
+
+.tabHeadings:hover{
+    background-color: rgb(255, 204, 179);
+}
+
+.trOdd:hover{
+    background-color: rgb(204, 255, 230);
+}
+
+.trEven:hover{
+    background-color: rgb(255, 255, 204);
+}
+
+legend{
+    background-color: var(--text-bg-color);
+}
+
+fieldset{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formP{
+    text-indent: 0em;
+    width: 50%; 
+}
+
+.postArray{
+    background-color: var(--text-bg-color); 
+}
