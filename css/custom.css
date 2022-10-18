@@ -18,7 +18,6 @@ body{
 }
 
 /* nav styling */
-
 nav{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -43,7 +42,6 @@ nav a{
 }
 
 /* grid setup */
-
 #grid-container{
    text-align: center;
    background: rgba(116, 185, 116, 0.275);
@@ -316,7 +314,7 @@ input[type=checkbox]{
 }
 
 /* Styling for custom checkboxes */
-input[type=checkbox] + label::before {
+input[type=checkbox] + label::before{
     content: "\00a0";   /* Use graphemica.com for special utf characters */  
     display: inline-block; 
     width: 1em;
