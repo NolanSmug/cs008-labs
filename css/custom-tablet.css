@@ -1,0 +1,48 @@
+nav{
+    display: grid;
+    grid-template-rows: auto,auto,auto;
+    grid-template-columns: 30%,30%;
+}
+
+body{
+    background-image: none;
+}
+
+.mainPage{
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: none;
+}
+
+.emitCarbon{
+    width: 25.5em;
+    border: none;
+    grid-column: 1 / 2;
+
+}
+
+.carbonEffects{
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    width: 21.5em;
+    border: none;
+    margin-bottom: 20em;
+
+}
+
+.someData{
+    grid-row: 3 / 4;
+    width: 21.5em;
+    border: none;
+    grid-column: 1 / 2;
+    padding-top: 5em;
+}
+
+.deeperDive{
+    width:21.5em;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    border: none;
+    padding-bottom: 2em;
+
+}
