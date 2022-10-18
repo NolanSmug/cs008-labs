@@ -100,9 +100,14 @@
                 <p><a href="lab6/css/custom-phone.css">custom-phone.css</a> </p>
                 <p><a href="lab6/css/custom-tablet.css">custom-tablet.css</a> </p>
                 
-                <p><a href="lab6/images/wireframe.png">wireframe desktop</a></p>
-                <p><a href="lab6/images/phone-wireframe.png">wireframe phone</a></p>
-                <p><a href="lab6/images/wireframe-tablet.png">wireframe tablet</a></p>
+                <p><a href="lab6/image/desktop-wireframe.png">wireframe desktop</a></p>
+                <p><a href="lab6/image/phone-wireframe.png">wireframe phone</a></p>
+                <p><a href="lab6/image/desktop-wireframe.png">wireframe tablet</a></p>
+            </section>
+
+            <section class="grader-notes">
+                <h3>Notes to grader</h3>
+                <p>I used the same wireframe for desktop and tablet.</p>
             </section>
         </section>
 <!----------------------------Lab 6------------------------------------>  
@@ -120,7 +125,7 @@
             <section class="supporting-files">
                 <h3>Supporting files</h3>
                 <p><a href="lab5/css/custom.css">custom.css</a> </p>
-                <p><a href="lab5/images/wireframe.png">wireframe.png</a></p>
+                <p><a href="lab5/image/wireframe.png">wireframe.png</a></p>
             </section>
 
             <section class="grader-notes">
