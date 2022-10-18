@@ -1,0 +1,97 @@
+nav{
+    display: grid;
+    grid-template-rows: auto,auto,auto;
+    grid-template-columns: auto;
+}
+
+body{
+    background-image: none;
+}
+
+
+.emitCarbon{
+    width: 25.5em;
+    border: none;
+    grid-column: 1 / 1;
+
+}
+
+.carbonEffects{
+    grid-column: 1 / 1;
+    grid-row: 2 / 4;
+    width: 21.5em;
+    border: none;
+    margin-bottom: 20em;
+
+}
+
+.someData{
+    grid-row: 3 / 4;
+    width: 21.5em;
+    border: none;
+    grid-column: 1 / 1;
+    padding-top: 5em;
+}
+
+.deeperDive{
+    width:21.5em;
+    grid-column: 1 / 1;
+    grid-row: 4 / 5;
+    border: none;
+    padding-bottom: 2em;
+
+}
+
+table{
+    width:20em;
+}
+
+.carsTandB{
+    grid-column: 1 / 1;
+    width: 20em;
+}
+
+.airplanes{
+    grid-column: 1 / 1;
+    grid-row: 2 / 3;
+
+}
+
+.airplanesImage{
+    grid-column: 1 / 1;
+    grid-row: 3 / 4;
+    width: 20em;
+    padding-left: 2em;
+}
+
+.contrailsImg{
+    width: 20em;
+}
+
+.trains{
+    grid-column: 1 / 1;
+    grid-row: 4 / 5;
+
+}
+
+
+#travelMethods{
+    width: 100%;
+}
+
+.formP{
+    width: 90%;
+
+}
+
+.submitButton{
+    width: 50%;
+}
+
+.postArray{
+    margin-bottom: 2em;
+}
+
+footer{
+    padding-bottom: 5em;
+}
