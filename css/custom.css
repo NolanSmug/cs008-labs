@@ -17,10 +17,17 @@ body{
     background-size: 175%;
 }
 
+.activePage{
+    background-color: white;
+    border-radius: 1em;
+}
+
+
+
 /* nav styling */
 nav{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
 }
 
 nav a:link{
@@ -30,6 +37,7 @@ nav a:link{
     font-size: 1em;
     color: #009;
     text-decoration: none;
+    border-radius: 1em;
 }
 
 nav a:hover{
@@ -374,4 +382,15 @@ input[type=submit]{
     width: 25%;
     border-radius: 2em;
 
+}
+
+/* Styling for sections in array.php */
+
+
+.globalMap{
+    padding-left: 1em;
+}
+
+.unitedStates{
+    padding-left: 1em;
 }
