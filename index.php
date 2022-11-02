@@ -84,6 +84,40 @@
         <h2>Nolan Cyr - Site map</h2>
         <p><a href="ADMIN/admin.php">My Admin Folder</a></p>
 
+        <section class="grid-layout">
+            <h2 class="header">Lab Eight - Database to display data.</h2>
+            <section class="public-files">
+                <h3>Public Files</h3>
+                <p><a href="lab8/array.php">array.php</a></p>
+                <p><a href="lab8/detail.php">detail.php</a></p> 
+                <p><a href="lab8/form.php">form.php</a></p> 
+                <p><a href="lab8/index.php">index.php</a></p>                
+            </section>
+
+            <section class="supporting-files">
+                 <h3>Supporting files</h3>
+                <p><a href="lab8/css/custom.css">custom.css</a> </p>
+                <p><a href="lab8/css/custom-phone.css">custom-phone.css</a> </p>
+                <p><a href="lab8/css/custom-tablet.css">custom-tablet.css</a> </p>
+                
+                <p><a href="lab8/sql.php">DB SQL Statements</a> </p>
+                <p><a href="lab8/records.png">DB records</a> </p>
+                
+                <p><a href="lab8/footer.php">footer.php</a></p>
+                <p><a href="lab8/header.php">header.php</a></p>
+                <p><a href="lab8/nav.php">nav.php</a></p>
+                <p><a href="lab8/top.php">top.php</a></p>
+                
+                <p><a href="lab8/images/desktop-wireframe.png">wireframe desktop</a></p>
+                <p><a href="lab8/images/phone-wireframe.png">wireframe phone</a></p>
+                <p><a href="lab8/images/desktop-wireframe.png">wireframe tablet</a></p>
+            </section>
+
+            <section class="grader-notes">
+                <h3>Notes to grader</h3>
+                <p></p>
+            </section>
+        </section>
 <!----------------------------Lab 7------------------------------------> 
         <section class="grid-layout">
             <h2 class="header">Lab Seven - Arrays and includes.</h2>
@@ -106,9 +140,9 @@
                 <p><a href="lab7/nav.php">nav.php</a></p>
                 <p><a href="lab7/top.php">top.php</a></p>
                 
-                <p><a href="lab7/images/wireframe.png">wireframe desktop</a></p>
+                <p><a href="lab7/images/desktop-wireframe.png">wireframe desktop</a></p>
                 <p><a href="lab7/images/phone-wireframe.png">wireframe phone</a></p>
-                <p><a href="lab7/images/wireframe-tablet.png">wireframe tablet</a></p>
+                <p><a href="lab7/images/desktop-wireframe.png">wireframe tablet</a></p>
             </section>
         </section>
 <!----------------------------Lab 7------------------------------------> 
