@@ -2,9 +2,27 @@
 include 'top.php';
 ?>
     <main class="formMain">
+
         <section>
             <h2>Help figure out your effect on the environment based on your daily habits</h2>
+            
+            <?php
+            if($_SERVER["REQUEST_METHOD"] == 'POST'){
+
+                // Sanitizing //
+                $email = getData('txtEmail');
+
+                $frequency = getData('radFrequency');
+
+                $car = (int) getData('chkCar');
+                $car = (int) getData('chkBus');
+                $car = (int) getData('chkRail');
+                $car = (int) getData('chkPlane');
+            ?>
+         
+         
             <form action="#" id="travelMethods" method="post">
+            
 
 <!--                                Textboxes                               -->
                 <fieldset>
