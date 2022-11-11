@@ -1,276 +1,84 @@
-<!DOCTYPE HTML>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Nolan's CS008 Website</title>
-        <meta name="author" content="Nolan Cyr">
-        <meta name="description" content="A site map to all of my assignments for CS 008">
-        <style>
-                       body{
-                margin: auto;
-                padding: 3%;
-                width: 90%;
-            }
-
-            figure {
-                border: thin solid darkslategray;
-                border-radius: 3%;
-                padding: 3%;
-                text-align: center;
-            }
-
-            figcaption {
-                color: #839e99;
-                font-style: italic;
-                text-align: center;
-            }
-
-            img{
-                border-radius: 3%;
-                max-width: 100%
-            }
-
-            .right{
-                float: right;
-                margin-left: 3%;
-            }
-
-            .small {
-                width: 20%;
-            }
-
-            .header{
-                grid-area: header;
-                grid-column: 1 / 3;
-                padding: .5%;
-                margin: .5%;
-            }  
-            .public-files{
-                grid-area: public-files;
-                padding: .5%;
-                margin: .5%;
-            }
-
-            .supporting-files{
-                grid-area: supporting-files;
-                padding: .5%;
-                margin: .5%;
-            }
-            .grader-notes{
-                grid-area: grader-notes;
-                padding: .5%;
-                margin: .5%;
-            }
-            .grid-layout{
-                border-bottom: thin dashed navy;
-                display: inline-grid;
-                grid-template-columns: 25% 25% 50%;
-                grid-template-areas: "header header header"
-                    "public-files supporting-files grader-notes"; 
-                padding: .5%;
-                margin: .5%;
-                width: 100%;    
-            }
-        </style>
-    </head>
-
-    <body>
-        <figure class="right small">
-            <img alt="Nolan Cyr circa 2022" src="image/nolan-cyr.png">
-            <figcaption>Walking around Roosevelt Island in NYC</figcaption>
-        </figure>
-
-        <h1>CS 008-<em>A</em> Fall 2022</h1>
-        <h2>Nolan Cyr - Site map</h2>
-        <p><a href="ADMIN/admin.php">My Admin Folder</a></p>
-
-        <section class="grid-layout">
-            <h2 class="header">Lab Eight - Database to display data.</h2>
-            <section class="public-files">
-                <h3>Public Files</h3>
-                <p><a href="lab8/array.php">array.php</a></p>
-                <p><a href="lab8/detail.php">detail.php</a></p> 
-                <p><a href="lab8/form.php">form.php</a></p> 
-                <p><a href="lab8/index.php">index.php</a></p>                
-            </section>
-
-            <section class="supporting-files">
-                 <h3>Supporting files</h3>
-                <p><a href="lab8/css/custom.css">custom.css</a> </p>
-                <p><a href="lab8/css/custom-phone.css">custom-phone.css</a> </p>
-                <p><a href="lab8/css/custom-tablet.css">custom-tablet.css</a> </p>
-                
-                <p><a href="lab8/sql.php">DB SQL Statements</a> </p>
-                <p><a href="lab8/records.png">DB records</a> </p>
-                
-                <p><a href="lab8/footer.php">footer.php</a></p>
-                <p><a href="lab8/header.php">header.php</a></p>
-                <p><a href="lab8/nav.php">nav.php</a></p>
-                <p><a href="lab8/top.php">top.php</a></p>
-                
-                <p><a href="lab8/images/desktop-wireframe.png">wireframe desktop</a></p>
-                <p><a href="lab8/images/phone-wireframe.png">wireframe phone</a></p>
-                <p><a href="lab8/images/desktop-wireframe.png">wireframe tablet</a></p>
-            </section>
-
-            <section class="grader-notes">
-                <h3>Notes to grader</h3>
-                <p></p>
-            </section>
+<?php 
+include 'top.php';
+?>
+    <main class="mainPage">
+        <section class="emitCarbon">
+            <h2 class="howEnginesEmit">How Engines Emit Carbon Dioxide</h2>
+            <p class="howEnginesEmitP">Engines run off of energy found in fuel and gasoline and convert it into mechanical energy. 
+            This physical motion the engine produces is typically used to turn the wheels of a vehicle, spin 
+            a propeller on an airplane, or even thrust a rocket upwards. For it to run, the internal combustion 
+            engine in cars combusts the carbon (C) and oxygen (O2) atoms found in gasoline, producing carbon dioxide 
+            (CO2).</p>
         </section>
-<!----------------------------Lab 7------------------------------------> 
-        <section class="grid-layout">
-            <h2 class="header">Lab Seven - Arrays and includes.</h2>
-            <section class="public-files">
-                <h3>Public Files</h3>  
-                <p><a href="lab7/array.php">array.php</a></p>
-                <p><a href="lab7/detail.php">detail.php</a></p>
-                <p><a href="lab7/form.php">form.php</a></p> 
-                <p><a href="lab7/index.php">index.php</a></p>            
-            </section>
 
-            <section class="supporting-files">
-                <h3>Supporting files</h3>
-                <p><a href="lab7/css/custom.css">custom.css</a> </p>
-                <p><a href="lab7/css/custom-phone.css">custom-phone.css</a> </p>
-                <p><a href="lab7/css/custom-tablet.css">custom-tablet.css</a> </p>
-                
-                <p><a href="lab7/footer.php">footer.php</a></p>
-                <p><a href="lab7/header.php">header.php</a></p>
-                <p><a href="lab7/nav.php">nav.php</a></p>
-                <p><a href="lab7/top.php">top.php</a></p>
-                
-                <p><a href="lab7/images/desktop-wireframe.png">wireframe desktop</a></p>
-                <p><a href="lab7/images/phone-wireframe.png">wireframe phone</a></p>
-                <p><a href="lab7/images/desktop-wireframe.png">wireframe tablet</a></p>
-            </section>
-        </section>
-<!----------------------------Lab 7------------------------------------> 
- 
-<!----------------------------Lab 6------------------------------------>  
-        <section class="grid-layout">
-            <h2 class="header">Lab Six - Responsive Design.</h2>
-            <section class="public-files">
-                <h3>Public Files</h3>
-                <p><a href="lab6/detail.php">detail.php</a></p> 
-                <p><a href="lab6/form.php">form.php</a></p>
-                <p><a href="lab6/index.php">index.php</a></p>
-            </section>
-
-            <section class="supporting-files">
-                <h3>Supporting files</h3>
-                <p><a href="lab6/css/custom.css">custom.css</a> </p>
-                <p><a href="lab6/css/custom-phone.css">custom-phone.css</a> </p>
-                <p><a href="lab6/css/custom-tablet.css">custom-tablet.css</a> </p>
-                
-                <p><a href="lab6/image/desktop-wireframe.png">wireframe desktop</a></p>
-                <p><a href="lab6/image/phone-wireframe.png">wireframe phone</a></p>
-                <p><a href="lab6/image/desktop-wireframe.png">wireframe tablet</a></p>
-            </section>
-
-            <section class="grader-notes">
-                <h3>Notes to grader</h3>
-                <p>I used the same wireframe for desktop and tablet.</p>
-            </section>
-        </section>
-<!----------------------------Lab 6------------------------------------>  
-
-<!----------------------------Lab 5------------------------------------>        
-        <section class="grid-layout">
-            <h2 class="header">Lab Five - Adding more style.</h2>
-            <section class="public-files">
-                <h3>Public Files</h3>
-                <p><a href="lab5/detail.php">detail.php</a></p> 
-                <p><a href="lab5/form.php">form.php</a></p>
-                <p><a href="lab5/index.php">index.php</a> </p>
-            </section>
+        <section class="carbonEffects">
+            <h2>Carbon Dioxide Effects</h2> 
+            <p>Carbon dioxide is one of the five major greenhouse gases (listed below). When these greenhouse gases are emittied into 
+            earth's atmosphere, they create what is known as the greenhouse effect. The greenhouse effect is where solar
+            energy from our sun is absorbed by these greenhouse gases (primarily CO2) and trapped. With these greenhouse
+            gases, the solar energy cannot escape out of earth's atmosphere once it has entered it, essentially warming up 
+            our planet slowly. This greenhosue effect is a natural occurance and regulates the Earth's temperature. However
+            too much GHG emissions will have harmful effects on our environment.</p>
             
-            <section class="supporting-files">
-                <h3>Supporting files</h3>
-                <p><a href="lab5/css/custom.css">custom.css</a> </p>
-                <p><a href="lab5/image/wireframe.png">wireframe.png</a></p>
-            </section>
-
-            <section class="grader-notes">
-                <h3>Notes to grader</h3>
-                <p></p>
-            </section>
+            <figure>
+                <img src="images/ghg_model.png" alt="Greenhouse gas model.">
+                <figcaption>Visual Representation of Greenhouse Gasses
+                    <cite>Photo by Newsela team</cite>
+                </figcaption>
+            </figure>
+            
         </section>
-<!----------------------------Lab 5------------------------------------>
 
-<!----------------------------Lab 4------------------------------------>
-        <section class="grid-layout">
-            <h2 class="header">Lab Four- Basic CSS</h2>
-            <section class="public-files">
-                <h3>Public Files</h3>
-                <p><a href="lab4/detail.php">detail.php</a></p> 
-		        <p><a href="lab4/form.php">form.php</a></p> 
-		        <p><a href="lab4/index.php">index.php</a></p>
-            </section>
-
-            <section class="supporting-files">
-                <h3>Supporting files</h3>
-                <p><a href="lab4/css/custom.css">custom.css</a> </p>
-                <p><a href="lab4/image/wireframe.png">wireframe.png</a></p>
-            </section>
-
-            <section class="grader-notes">
-                <h3>Notes to grader</h3>
-                <p></p>
-            </section>
+        <section class="someData">
+            <h2>Some Data</h2>
+            <p><strong>The Major GHGs and their Percent Emissions</strong></p>
+            <ol>
+                <li class="odd">Carbon Dioxide - 79%</li>
+                <li class="even">Methane - 11%</li>
+                <li class="odd">Nitrous Oxide - 7%</li>
+                <li class="even">Flourinated Gases - 3%</li>
+            </ol>   
+            <cite class="listCite"> <a href="https://www.epa.gov/report-environment/greenhouse-gases">Greenhouse Gases</a></cite> 
         </section>
-<!----------------------------Lab 4------------------------------------>
 
-<!----------------------------Lab 3------------------------------------>
-        <section class="grid-layout">
-            <h2 class="header">Lab Three - Adding detail and a form.</h2>
-            <section class="public-files">
-                <h3>Public Files</h3>
-                <p><a href="lab3/detail.php">detail.php</a></p> 
-		        <p><a href="lab3/form.php">form.php</a></p> 
-		        <p><a href="lab3/index.php">index.php</a></p>
-            </section>
+        <section class="deeperDive">
+            <h2>Deeper Dive into the Greenhouse Gases</h2>
+            <table>
+                <caption class="tableCaption"><strong>Five Greenhouse Gases</strong></caption>
+                <tr class="tabHeadings">    
+                        <th>Greenhouse Gas</th>
+                        <th>Produced By</th>
+                        <th>Lifespan</th>
 
-            <section class="supporting-files">
-                <h3>Supporting files</h3>
-                <p><a href="lab3/css/custom.css">custom.css</a> </p>
-                <p><a href="lab3/image/wireframe.png">wireframe.png</a></p>
-            </section>
+                
 
-            <section class="grader-notes">
-                <h3>Notes to grader</h3>
-                <p></p>
-            </section>
-        </section>
-<!----------------------------Lab 3------------------------------------>
+                <?php
+                $sql = 'SELECT fldGas, fldProduced, fldLifespan FROM tblGreenhouse';
 
-<!----------------------------Lab 2------------------------------------>
-        <section class="grid-layout">
-            <h2 class="header">Lab Two - Choosing your topic.</h2>
-            <section class="public-files">
-                <h3>Public Files</h3>
-                <p><a href="lab2/index.php">index.php</a></p>      
-            </section>
+                $statement = $pdo->prepare($sql);
+                $statement->execute();
 
-            <section class="supporting-files">
-                <h3>Supporting files</h3>
-            </section>
+                $records = $statement->fetchAll();
 
-            <section class="grader-notes">
-                <h3>Notes to grader</h3>
-            </section>
-        </section>
-<!----------------------------Lab 2------------------------------------>
+                foreach ($records as $record) {
+                    print '<tr>';
+                    print '<td>' . $record['fldGas'] . '</td>';
+                    print '<td>' . $record['fldProduced'] . '</td>';
+                    print '<td>' . $record['fldLifespan'] . '</td>';
+                    print '</tr>' . PHP_EOL;
+                }
+                ?>
 
-<!----------------------------Lab 1------------------------------------>
-        <section class="grid-layout">
-            <h2>Lab one - Setting up your sitemap</h2>
-            <section class="public-files">
-                <h3>Public Files</h3>
-                <p><a href="test.php">Testing Page</a></p>
-            </section>
-        </section>
-<!----------------------------Lab 1------------------------------------>
+                <tr class="citation">    
+                    <td colspan="3">Citations: <cite><a href="https://commons.wikimedia.org/w/index.php?title=File:Greenhouse_gas_summary.PNG&oldid=560184487" target="_blank">
+                        Wikimedia Commons</a></cite>
+                    </td>
+                </tr>
+            </table>
+        </section> 
 
-    </body>
+    </main>
+
+    <?php include 'footer.php'; ?>
+</body>
 </html>
